@@ -1,0 +1,16 @@
+Details
+
+Login:
+root
+IP Address:
+188.130.154.164
+Application username:
+admin
+Application password:
+DpyNrKb2t6yr=nEH
+Password:
+DpyNrKb2t6yr=nEH
+Hostname:
+server-psQPpR
+SSH login command:
+ssh root@188.130.154.164

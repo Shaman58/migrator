@@ -1,0 +1,20 @@
+spring:application.name: migrator
+
+spring:
+  datasource:
+    mysql:
+      jdbc-url: jdbc:mysql://188.130.154.164:3306/my_database
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: user
+      password: password
+      hikari:
+        pool-name: MySQL-Pool
+        maximum-pool-size: 10
+    postgresql:
+      jdbc-url: jdbc:postgresql://188.130.154.164:5432/my_database
+      driver-class-name: org.postgresql.Driver
+      username: user
+      password: password
+      hikari:
+        pool-name: Postgres-Pool
+        maximum-pool-size: 10
